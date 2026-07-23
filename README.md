@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header_animated.svg" width="100%" alt="NakNakGEO — software engineering, AI systems, infrastructure, and automation" />
+  <img src="./assets/header_irontech.gif" width="100%" alt="NakNakGEO — software engineering, AI systems, infrastructure, and automation" />
 </div>
 
 <br>
