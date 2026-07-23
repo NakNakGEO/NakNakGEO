@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Profile Views](https://api.visitorbadge.io/api/visitors?path=NakNakGEO%2FRimuru&label=Profile%20Views&countColor=%236366f1&style=flat)](https://github.com/NakNakGEO)
+[![Profile Views](https://api.visitorbadge.io/api/visitors?path=NakNakGEO%2FNakNakGEO&label=Profile%20Views&countColor=%236366f1&style=flat)](https://github.com/NakNakGEO)
 [![GitHub Followers](https://img.shields.io/github/followers/NakNakGEO?label=Followers&style=flat&color=2563eb)](https://github.com/NakNakGEO?tab=followers)
 
 </div>
@@ -86,7 +86,7 @@ My main areas of interest are:
 ## GitHub activity
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NakNakGEO&bg_color=0d1117&color=c9d1d9&line=6366f1&point=38bdf8&area=true&hide_border=true" alt="GitHub contribution activity" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NakNakGEO&custom_title=NakNakGEO%27s%20Contribution%20Graph&bg_color=0d1117&color=c9d1d9&line=6366f1&point=38bdf8&area=true&hide_border=true" alt="NakNakGEO contribution activity" />
 </div>
 
 ---
