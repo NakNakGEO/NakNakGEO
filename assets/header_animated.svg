@@ -1,0 +1,50 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06111F"/>
+      <stop offset="55%" stop-color="#0B1631"/>
+      <stop offset="100%" stop-color="#1A1033"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="240" y1="80" x2="980" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="55%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="lineGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#22D3EE" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#A78BFA" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 170) rotate(12) scale(420 260)">
+      <stop stop-color="#0891B2" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 70) rotate(140) scale(380 270)">
+      <stop stop-color="#7C3AED" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#93C5FD" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <pattern id="majorGrid" width="84" height="84" patternUnits="userSpaceOnUse">
+      <path d="M84 0H0V84" fill="none" stroke="#A78BFA" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="softBlur" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="textGlow" x="-25%" y="-80%" width="150%" height="260%"><feGaussianBlur stdDeviation="6" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .twinkleA{animation:twinkleA 3.2s ease-in-out infinite}.twinkleB{animation:twinkleB 4.4s ease-in-out infinite}.pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.driftA{animation:driftA 14s ease-in-out infinite alternate}.driftB{animation:driftB 16s ease-in-out infinite alternate}.scan{animation:scan 7s linear infinite}.titleGlow{animation:titleGlow 3.8s ease-in-out infinite}.subtleMove{animation:subtleMove 12s ease-in-out infinite alternate}
+      @keyframes twinkleA{0%,100%{opacity:.25}50%{opacity:.95}}@keyframes twinkleB{0%,100%{opacity:.35}50%{opacity:.8}}@keyframes pulse{0%,100%{opacity:.25;transform:scale(1)}50%{opacity:.75;transform:scale(1.16)}}@keyframes driftA{0%{transform:translate(-8px,0)}100%{transform:translate(12px,-4px)}}@keyframes driftB{0%{transform:translate(10px,0)}100%{transform:translate(-10px,5px)}}@keyframes scan{0%{transform:translateX(-1220px);opacity:0}12%{opacity:.35}50%{opacity:.2}88%{opacity:.35}100%{transform:translateX(1220px);opacity:0}}@keyframes titleGlow{0%,100%{opacity:.96}50%{opacity:1}}@keyframes subtleMove{0%{transform:translateY(0)}100%{transform:translateY(-3px)}}
+    </style>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/><rect width="1200" height="340" rx="24" fill="url(#microGrid)"/><rect width="1200" height="340" rx="24" fill="url(#majorGrid)"/><rect width="1200" height="340" rx="24" fill="url(#glowLeft)" class="subtleMove"/><rect width="1200" height="340" rx="24" fill="url(#glowRight)" class="subtleMove"/>
+  <g class="twinkleA"><circle cx="80" cy="70" r="1.9" fill="#E0F2FE"/><circle cx="175" cy="42" r="1.4" fill="#A5F3FC"/><circle cx="286" cy="88" r="1.3" fill="#93C5FD"/><circle cx="418" cy="33" r="1.6" fill="#C4B5FD"/><circle cx="583" cy="60" r="1.4" fill="#E0E7FF"/><circle cx="814" cy="46" r="1.6" fill="#C4B5FD"/><circle cx="1020" cy="76" r="1.5" fill="#A5F3FC"/><circle cx="1092" cy="118" r="1.6" fill="#BAE6FD"/></g>
+  <g class="twinkleB"><circle cx="146" cy="262" r="1.3" fill="#E0F2FE"/><circle cx="256" cy="286" r="1.4" fill="#C4B5FD"/><circle cx="380" cy="298" r="1.2" fill="#A5F3FC"/><circle cx="925" cy="276" r="1.7" fill="#DDD6FE"/><circle cx="1048" cy="260" r="1.2" fill="#BAE6FD"/><circle cx="1148" cy="292" r="1.4" fill="#E0F2FE"/></g>
+  <rect x="-1220" y="0" width="220" height="340" fill="url(#lineGlow)" opacity="0.12" class="scan"/>
+  <g class="driftA" opacity="0.56"><path d="M54 270C156 236 214 269 301 231C400 187 490 212 579 194C673 175 734 192 830 171C930 149 1037 161 1140 112" stroke="#1D4ED8" stroke-opacity="0.58" stroke-width="1"/><path d="M60 286C166 255 229 290 323 253C424 215 516 233 607 216C701 198 768 214 862 191C964 168 1057 176 1135 145" stroke="url(#lineGlow)" stroke-width="1.7"/></g>
+  <g class="driftB" opacity="0.34" stroke="url(#accent)" stroke-width="1.2"><path d="M100 140H176L204 112H296"/><path d="M904 114H970L1000 85H1078"/><path d="M104 220H174L204 248H272"/><path d="M930 228H1000L1035 258H1095"/></g>
+  <g opacity="0.68"><rect x="82" y="128" width="18" height="18" rx="4" stroke="#22D3EE" stroke-opacity="0.45"/><rect x="1073" y="73" width="16" height="16" rx="3" stroke="#A78BFA" stroke-opacity="0.45"/><rect x="1080" y="250" width="14" height="14" rx="3" stroke="#60A5FA" stroke-opacity="0.45"/><circle cx="296" cy="112" r="3" fill="#22D3EE"/><circle cx="1000" cy="85" r="3" fill="#A78BFA"/><circle cx="204" cy="248" r="3" fill="#60A5FA"/><circle cx="1035" cy="258" r="3" fill="#22D3EE"/></g>
+  <g><circle cx="607" cy="216" r="4" fill="#60A5FA"/><circle cx="607" cy="216" r="15" fill="#60A5FA" fill-opacity="0.22" filter="url(#softBlur)" class="pulse"/><circle cx="862" cy="191" r="4" fill="#A78BFA"/><circle cx="323" cy="253" r="3" fill="#22D3EE"/></g>
+  <g text-anchor="middle"><text x="600" y="154" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="8" filter="url(#textGlow)" class="titleGlow">NAKNAKGEO</text><text x="600" y="205" fill="#E5E7EB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="2.8">SOFTWARE ENGINEERING · AI SYSTEMS · INFRASTRUCTURE · AUTOMATION</text><line x1="335" y1="229" x2="865" y2="229" stroke="url(#lineGlow)" stroke-width="2.2" stroke-linecap="round"/><text x="600" y="264" fill="#94A3B8" font-family="JetBrains Mono,Consolas,monospace" font-size="15" letter-spacing="1.3">BUILDING RELIABLE SYSTEMS, AI TOOLS, AND INFRASTRUCTURE</text></g>
+  <rect x="1" y="1" width="1198" height="338" rx="23" stroke="url(#accent)" stroke-opacity="0.24" stroke-width="2"/>
+</svg>
